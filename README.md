@@ -272,6 +272,10 @@ Inference is exposed via **FastAPI**.
 
 
 
+---
+
+
+
 ## 🔁 Reproducibility
 
 
@@ -298,6 +302,10 @@ uvicorn api.main:app --reload
 
 
 
+---
+
+
+
 ## ⚖️ Design Trade-offs
 
 
@@ -305,6 +313,10 @@ uvicorn api.main:app --reload
 - prioritizes clarity and modularity over maximum accuracy
 - local-first MLOps (no cloud dependency)
 - minimal tooling to ensure portability
+
+
+
+---
 
 
 
