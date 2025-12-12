@@ -268,17 +268,11 @@ Inference is exposed via **FastAPI**.
 
 }
 
+```
 
 
 
-
-
-
-
-
-🔁 Reproducibility
-
-
+## 🔁 Reproducibility
 
 
 
@@ -304,38 +298,21 @@ uvicorn api.main:app --reload
 
 
 
+## ⚖️ Design Trade-offs
 
 
 
+- prioritizes clarity and modularity over maximum accuracy
+- local-first MLOps (no cloud dependency)
+- minimal tooling to ensure portability
 
 
 
-⚖️ Design Trade-offs
+## 🔮 Future Improvements
 
 
 
-
-
-prioritizes clarity and modularity over maximum accuracy
-local-first MLOps (no cloud dependency)
-minimal tooling to ensure portability
-
-
-
-
-
-
-
-
-
-
-🔮 Future Improvements
-
-
-
-
-
-data drift detection
-online inference optimization
-feature store integration
-CI-based model validation
+- data drift detection
+- online inference optimization
+- feature store integration
+- CI-based model validation
